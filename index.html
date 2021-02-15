@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="content">
+    <div id="homeworks-title">home<span>W</span>orks</div>
+    <div id="homeworks">
+        <div id="homeworks-text">Get your free account</div>
+        <div id="homeworks-text-1">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+            anytime.
+        </div>
+        <form id="sign-up" action="#" method="post">
+            <div>
+                <label for="FullName" class="sign-up-label">Full Name</label>
+                <input type="text" name="FullName" id="FullName" class="sign-up-input" value="Antony Swarowski" required>
+                <div class="error-input">Enter full name!</div>
+            </div>
+            <div>
+                <label for="username" class="sign-up-label">Your username</label>
+                <input type="text" name="username" id="username" class="sign-up-input">
+                <div class="error-input">Enter your username!</div>
+            </div>
+            <div>
+                <label for="email" class="sign-up-label">E-mail</label>
+                <input type="email" name="email" id="email" class="sign-up-input" required>
+                <div class="error-input">Enter your E-mail!</div>
+            </div>
+            <div>
+                <label for="password" class="sign-up-label">Password</label>
+                <input type="password" name="password" id="password" class="sign-up-input" maxlength="25" required>
+                <div class="error-input">Enter your password!</div>
+            </div>
+            <div id="repeat-password-remove">
+                <label for="repeat-password" class="sign-up-label">Repeat Password</label>
+                <input type="password" name="repeat-password" id="repeat-password" class="sign-up-input" maxlength="25" required>
+                <div class="error-input">Enter repeat password!</div>
+            </div>
+            <div>
+                <label class="text-small">
+                    <input type="checkbox" name="agree" id="checkbox">
+                    Agree to our Terms of Service and Privacy Statement
+                </label>
+            </div>
+            <input type="submit" id="btn" value="Sign Up">
+            <a href="#" class="text-small" id="account">
+                Already have an account?
+            </a>
+        </form>
+    </div>
+    <div id="logo">
+        <img src="images/image.png" alt="">
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

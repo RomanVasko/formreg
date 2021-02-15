@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#homeworks {
+    width: 50%;
+    padding: 0 41px 191px 41px;
+    box-sizing: border-box;
+}
+
+#homeworks-title {
+    font-family: NunitoBold, sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    top: 27px;
+    left: 470px;
+}
+
+#homeworks-title span {
+    color: #D72F3F;
+    font-size: 45px;
+}
+
+
+#homeworks-text {
+    font-family: NunitoBold, sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-top: 194px;
+    margin-bottom: 7px;
+}
+
+#homeworks-text-1 {
+    font-family: NunitoBold, sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 68px;
+}
+
+#sign-up {
+    width: 452px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*text-align: center;*/
+}
+
+#sign-up .sign-up-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.sign-up-label {
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.text-small {
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#sign-up div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#checkbox {
+    margin-top: 35px;
+}
+
+a.text-small {
+    text-decoration: none;
+}
+
+#btn {
+    width: 210px;
+    padding: 25px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 44px;
+}
+
+#logo {
+    width: 50%;
+    background: #F8F8FA;
+    padding-top: 254px;
+}
+
+.error-input {
+    color: red;
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
